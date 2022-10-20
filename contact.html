@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Gatesana Vongphachanh">
+    <meta name="description" content="The page about myself">
+    <meta name="revised" content="10/12/2022">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Gatesana's Random Blog</h1>
+        <p>Hello! Here is a random blog site for my random thoughts!</p>
+    </header>
+    <nav>
+        <a href="index.html">Index</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Me!</h2>
+            <form class="contact">
+                <label for="name">Name: </label><br>
+                <input type="text" name="name" id="name" required><br>
+
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" id="email" required><br>
+
+                <label for="email">Reason for contacting: </label><br>
+                <select name="reasons" id="reason-select">
+                    <option value="">--Please choose a reason--</option>
+                    <option value="hi">Saying hi</option>
+                    <option value="contractor">Looking for a contractor</option>
+                    <option value="interview">Interested in an interview</option>
+                </select><br>
+
+                <label for="email">Comment: </label><br>
+                <textarea name="comment" id="comment" rows="5" cols="50">Write comment here</textarea><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
