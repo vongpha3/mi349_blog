@@ -1,0 +1,26 @@
+/* This file is me playing around */
+
+body {
+    background-color: #cbcbcb;
+}
+
+.blog-post {
+    height: 1008px;
+    width: 1550px;
+    background-color: #f0f0f0;
+    background-image: url("../Images/bg_test 1.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    padding-top: 10px;
+    margin: 50px;
+}
+
+.post {
+    height: 75%;
+    margin-left: 60px;
+    margin-right: 60px;
+    overflow: auto;
+}
