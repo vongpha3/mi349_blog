@@ -5,22 +5,32 @@ body {
 }
 
 .blog-post {
-    height: 1008px;
-    width: 1550px;
-    background-color: #f0f0f0;
-    background-image: url("../Images/bg_test 1.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: 115vh;
+    width: 80vw;
+    background-color: #FFD5EA;
+    border-left: 2px solid #FFD5EA;
+    border-right: 2px solid #ff0080;
+    border-bottom: 2px solid #ff0080;
+}
+
+.title-text {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .title {
-    padding-top: 10px;
-    margin: 50px;
+    height: 20vh;
+    margin-top: 15px;
+    border-top: 2px solid #FFD5EA;
+    background-color: #FF77BB;
+    background-image: url("../Images/top_test.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .post {
-    height: 75%;
-    margin-left: 60px;
-    margin-right: 60px;
+    height: 88vh;
+    margin: 20px;
+    background-color: #FFD5EA;
     overflow: auto;
 }
