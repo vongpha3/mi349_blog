@@ -1,10 +1,10 @@
 /* This file is me playing around */
 
 body {
-    background-color: #cbcbcb;
+    background-color: #fff3f9;
 }
 
-.blog-post {
+.post-area {
     height: 115vh;
     width: 80vw;
     background-color: #FFD5EA;
