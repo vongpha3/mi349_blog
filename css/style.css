@@ -1,8 +1,39 @@
-/* universal */
+
+/* Type Selector */
 
 body {
+    margin: 0%;
     background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: larger;
+    background-color: #ffb5d3;
+    height: 130px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffe6f0;
+    height: 80px;
+    font-weight: bold;
+    font-size: large;
+}
+
+img {
+    width: 35%;
+    height: 35%;
+}
+
+/* universal */
 
 .post-area {
     border-bottom: 10px solid #ffb5d3;
@@ -27,8 +58,12 @@ body {
 }
 
 /* id */
-/* Reference: https://www.w3schools.com/css/css_table.asp */
 
+#header-text {
+    padding: 1px;
+}
+
+/* Reference: https://www.w3schools.com/css/css_table.asp */
 #ending-table table {
     text-align: left;
 }
@@ -69,9 +104,4 @@ input[type="submit"] {
     margin: auto;
     background-color: #fff3f9;
     border-color: #ffb5d3;
-}
-
-/* Type Selector */
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
 }

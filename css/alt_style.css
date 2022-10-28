@@ -1,11 +1,12 @@
 /* This file is me playing around */
+/* Only looks good for index.html */
 
 body {
     background-color: #fff3f9;
 }
 
 .post-area {
-    height: 115vh;
+    height: 118vh;
     width: 80vw;
     background-color: #FFD5EA;
     border-left: 2px solid #FFD5EA;
@@ -19,7 +20,7 @@ body {
 }
 
 .title {
-    height: 20vh;
+    height: 23vh;
     margin-top: 15px;
     border-top: 2px solid #FFD5EA;
     background-color: #FF77BB;
