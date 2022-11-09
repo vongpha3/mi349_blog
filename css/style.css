@@ -30,6 +30,10 @@ nav {
     font-size: large;
 }
 
+img {
+    width: 75%;
+}
+
  /* Reference: https://www.w3.org/Style/Examples/007/figures.en.html */
 .figure {
     float: left;
@@ -154,10 +158,6 @@ input[type="submit"] {
         width: 50vw;
     }
 
-    .post {
-        background-color: aqua;
-    }
-    
     .form-area {
         margin: auto;
         margin-bottom: 20px;
@@ -169,6 +169,6 @@ input[type="submit"] {
 
     input[type="submit"] {
         width: 50vw;
-        margin-top: 5px;
+        margin-top: 8px;
     }
 }
