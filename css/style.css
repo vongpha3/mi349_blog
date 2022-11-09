@@ -112,3 +112,31 @@ input[type="submit"] {
     background-color: #fff3f9;
     border-color: #ffb5d3;
 }
+
+/* Media Queries */
+
+@media (max-width: 400px) {
+
+    body {
+        font-size: x-small;
+    }
+
+    img {
+        width: 35vw;
+    }
+
+    .post-area {
+        font-size: x-small;
+    }
+
+    .figure {
+        margin: auto;
+        float: none;
+        width: 35vw;
+    }
+
+    .post {
+        background-color: aqua;
+    }
+    
+}
