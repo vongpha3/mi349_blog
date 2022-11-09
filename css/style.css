@@ -120,12 +120,27 @@ input[type="submit"] {
     body {
         font-size: x-small;
     }
+    
+    header {
+        height: 10vh;
+        font-size: x-small;
+    }
+
+    nav {
+        height: 5vh;
+        font-size: x-small;
+    }
 
     img {
         width: 35vw;
     }
 
     .post-area {
+        padding: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: x-small;
     }
 
